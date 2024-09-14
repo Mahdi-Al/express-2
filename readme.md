@@ -1,6 +1,8 @@
 here you have a products array.you should implement CRUD routes using express and it's folder structure.
 
-### Routes
+### Routes✅
+
+- /product => GET
 
 Routes you should create:
 
@@ -10,7 +12,7 @@ Routes you should create:
 - /product/:id => PATCH
 - /product/:id => DELETE
 
-You can use below array to send reponses or store data
+You can use below array to send reponses or store data✅
 
 ```js
 let products = [
@@ -22,7 +24,7 @@ let products = [
 ];
 ```
 
-You should create these folders to organize your application
+## You should create these folders to organize your application✅
 
 - controllers
 - routes
@@ -30,7 +32,7 @@ You should create these folders to organize your application
 
 ---
 
-### middlewares
+### middlewares✅
 
 1. add the built in middlewares to your app like express.json() and express.urlencoded()
 
@@ -42,6 +44,6 @@ You should create these folders to organize your application
 
 ---
 
-### .env
+### .env✅
 
 store the PORT number in a .env file and pass it to app.listen using dotenv package

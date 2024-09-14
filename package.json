@@ -4,9 +4,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch app.js"
+    "dev": "node --watch c:/Users/ARKA/Documents/express-2/app.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^4.0.0-beta.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
 }
